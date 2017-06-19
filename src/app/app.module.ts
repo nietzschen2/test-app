@@ -10,6 +10,7 @@ import { RadioButtonsComponent } from './radio-buttons/radio-buttons.component';
 import { MaterialToolbarComponent } from './material-toolbar/material-toolbar.component';
 import { PlaceholderCardsComponent } from './placeholder-cards/placeholder-cards.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
+import { NormalButtonComponent } from './normal-button/normal-button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
     RadioButtonsComponent,
     MaterialToolbarComponent,
     PlaceholderCardsComponent,
-    DatepickerComponent
+    DatepickerComponent,
+    NormalButtonComponent
   ],
   imports: [
     BrowserModule,
