@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "ng2-test1",
+    "test-app-project": "ng2-test1"
+  }
+}
