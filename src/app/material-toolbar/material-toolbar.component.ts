@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http, JsonpModule } from '@angular/http';
+
 
 @Component({
   selector: 'app-material-toolbar',
@@ -8,13 +8,6 @@ import { Http, JsonpModule } from '@angular/http';
 })
 export class MaterialToolbarComponent implements OnInit {
 
-  myData: Array<any>;
-
-  constructor(private http:Http) {
-    this.http.get('https://jsonplaceholder.typicode.com/photos')
-    .map(response => response.json())
-    .subscribe(res => this.myData = res);
-   }
 
   ngOnInit() {
   }
