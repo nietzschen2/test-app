@@ -11,6 +11,8 @@ import { MaterialToolbarComponent } from './material-toolbar/material-toolbar.co
 import { PlaceholderCardsComponent } from './placeholder-cards/placeholder-cards.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { NormalButtonComponent } from './normal-button/normal-button.component';
+import { BasicBrandheaderComponent } from './basic-brandheader/basic-brandheader.component';
+import { BasicLoginformComponent } from './basic-loginform/basic-loginform.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NormalButtonComponent } from './normal-button/normal-button.component';
     MaterialToolbarComponent,
     PlaceholderCardsComponent,
     DatepickerComponent,
-    NormalButtonComponent
+    NormalButtonComponent,
+    BasicBrandheaderComponent,
+    BasicLoginformComponent
   ],
   imports: [
     BrowserModule,
